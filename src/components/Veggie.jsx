@@ -21,7 +21,7 @@ function Veggie() {
       setVeggie(JSON.parse(check));
     } else {
       const api = await fetch(
-        'https://api.spoonacular.com/recipes/random?apiKey=d18e157556484c79b9a9aa14343235c3&number=9&tags=vegetarian'
+        'https://api.spoonacular.com/recipes/random?apiKey=4243f9475cc24d83aaa44e5424c1c9e5&number=9&tags=vegetarian'
       );
       const data = await api.json(); //gives the json format
       

@@ -11,7 +11,7 @@ function Recipe() {
 
     const fetchDetails = async (name) => {
         const data = await fetch(
-            `https://api.spoonacular.com/recipes/${name}/information?apiKey=d18e157556484c79b9a9aa14343235c3`
+            `https://api.spoonacular.com/recipes/${name}/information?apiKey=4243f9475cc24d83aaa44e5424c1c9e5`
             );
         const detailData = await data.json();
         setDetails(detailData);
