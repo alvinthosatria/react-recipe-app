@@ -1,8 +1,8 @@
 {
+  "homepage": "https://alvinthosatria.github.io/react-recipe-app",
   "name": "recipeapp",
-  "homepage": "https://alvinthosatria.github.io/react-recipe-app/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@splidejs/react-splide": "^0.7.8",
     "@testing-library/jest-dom": "^5.16.4",
