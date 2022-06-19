@@ -46,9 +46,9 @@ function Popular() {
           {popular.map((recipe) => {
             return (
               <SplideSlide key = {recipe.id}>
-                <Card>
+                <Card className="popular-cards">
                   <Link to={'/recipe/'+recipe.id}>
-                    <p>{recipe.title}</p>
+                    <p className="popular-recipe-title">{recipe.title}</p>
                     <img src={recipe.image} alt={recipe.title} />
                     <Gradient />
                   </Link>
@@ -73,7 +73,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 15rem;
+  height: 15rem;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
